@@ -11,6 +11,6 @@ ButtonFun
 
 ### Setup and Submission Instructions
 
-*	Fork the repo at https://github.com/AndrewHydeJr/ButtonFun to your public GitHub account.
+*	Fork the repo at https://github.com/pmhood/ButtonFun to your public GitHub account.
 * When complete, send us a pull request for review.
 
