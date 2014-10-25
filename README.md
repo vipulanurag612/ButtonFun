@@ -11,6 +11,7 @@ ButtonFun
 
 ### Setup and Submission Instructions
 
-*	Fork the repo at https://github.com/pmhood/ButtonFun to your public GitHub account.
-* When complete, send us a pull request for review.
-
+* Clone this repository to your local machine.
+* Commit your changes to a new branch.
+* Push that branch back to Github.
+* When complete, create a pull request with the head branch as your new branch and the base branch as master.
