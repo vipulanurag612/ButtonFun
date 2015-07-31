@@ -28,7 +28,7 @@ NSString *kCellID = @"cellID";          //UICollectionViewCell storyBoard id
     UIColor *nextBackgroundColor = [UIColor RandomColor]; //RandomColor Category added to UIColor to provide ramdom colors
     
     /*varifying current cell background is different from the next one*/
-    while (nextBackgroundColor == cell.backgroundColor) {
+    while ([nextBackgroundColor isEqual:cell.backgroundColor]) {
         nextBackgroundColor = [UIColor RandomColor];
     }
     
