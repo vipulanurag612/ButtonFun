@@ -10,7 +10,7 @@
 #import "UIColor+RandomColor.h"
 
 NSString *kCellID = @"cellID";          //UICollectionViewCell storyBoard id
-#define kCellHieghtWidth 5
+#define kCellHieghtWidth 40
 
 @implementation ViewController
 
