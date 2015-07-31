@@ -25,12 +25,12 @@ NSString *kCellID = @"cellID";          //UICollectionViewCell storyBoard id
     
     UICollectionViewCell *cell  = [collectionView dequeueReusableCellWithReuseIdentifier:kCellID forIndexPath:indexPath];
     
-    UIColor *currentCellBackgroundColor = cell.backgroundColor;
     UIColor *nextBackgroundColor = [UIColor RandomColor]; //RandomColor Category added to UIColor to provide ramdom colors
     
     /*varifying current cell background is different from the next one*/
-    if(nextBackgroundColor == currentCellBackgroundColor)
+    while (nextBackgroundColor == cell.backgroundColor) {
         nextBackgroundColor = [UIColor RandomColor];
+    }
     
     cell.backgroundColor = nextBackgroundColor;
     
@@ -43,6 +43,7 @@ NSString *kCellID = @"cellID";          //UICollectionViewCell storyBoard id
     cell.backgroundColor = [UIColor RandomColor];
 }
 
+ //handling device rotation
 -(void)willRotateToInterfaceOrientation:(UIInterfaceOrientation)toInterfaceOrientation duration: (NSTimeInterval)duration {
     
     [super willRotateToInterfaceOrientation:toInterfaceOrientation duration:duration];
