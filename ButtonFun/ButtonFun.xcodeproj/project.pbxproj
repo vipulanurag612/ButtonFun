@@ -14,6 +14,7 @@
 		13E712591B6B1EB900C5B5EA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13E712581B6B1EB900C5B5EA /* Images.xcassets */; };
 		13E7125C1B6B1EB900C5B5EA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13E7125A1B6B1EB900C5B5EA /* LaunchScreen.xib */; };
 		13E712681B6B1EBA00C5B5EA /* ButtonFunTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 13E712671B6B1EBA00C5B5EA /* ButtonFunTests.m */; };
+		13E712731B6B1F8F00C5B5EA /* UIColor+RandomColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 13E712721B6B1F8F00C5B5EA /* UIColor+RandomColor.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		13E712611B6B1EB900C5B5EA /* ButtonFunTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ButtonFunTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		13E712661B6B1EB900C5B5EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		13E712671B6B1EBA00C5B5EA /* ButtonFunTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ButtonFunTests.m; sourceTree = "<group>"; };
+		13E712711B6B1F8F00C5B5EA /* UIColor+RandomColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+RandomColor.h"; sourceTree = "<group>"; };
+		13E712721B6B1F8F00C5B5EA /* UIColor+RandomColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+RandomColor.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				13E712581B6B1EB900C5B5EA /* Images.xcassets */,
 				13E7125A1B6B1EB900C5B5EA /* LaunchScreen.xib */,
 				13E7124B1B6B1EB900C5B5EA /* Supporting Files */,
+				13E712711B6B1F8F00C5B5EA /* UIColor+RandomColor.h */,
+				13E712721B6B1F8F00C5B5EA /* UIColor+RandomColor.m */,
 			);
 			path = ButtonFun;
 			sourceTree = "<group>";
@@ -219,6 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13E712731B6B1F8F00C5B5EA /* UIColor+RandomColor.m in Sources */,
 				13E712541B6B1EB900C5B5EA /* ViewController.m in Sources */,
 				13E712511B6B1EB900C5B5EA /* AppDelegate.m in Sources */,
 				13E7124E1B6B1EB900C5B5EA /* main.m in Sources */,

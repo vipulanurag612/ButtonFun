@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  UIColor+RandomColor.h
 //  ButtonFun
 //
 //  Created by Anurag on 7/30/15.
@@ -8,10 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@interface UIColor (RandomColor)
 
-@property (strong, nonatomic) UIWindow *window;
-
++(UIColor *)RandomColor; //Returns random UIColor
 
 @end
-
