@@ -43,7 +43,7 @@ NSString *kCellID = @"cellID";          //UICollectionViewCell storyBoard id
     cell.backgroundColor = [UIColor RandomColor];
 }
 
- //handling device rotation
+ /*handling device rotation*/
 -(void)willRotateToInterfaceOrientation:(UIInterfaceOrientation)toInterfaceOrientation duration: (NSTimeInterval)duration {
     
     [super willRotateToInterfaceOrientation:toInterfaceOrientation duration:duration];
@@ -53,6 +53,7 @@ NSString *kCellID = @"cellID";          //UICollectionViewCell storyBoard id
 
 #pragma mark Private Methods
 
+/*Returns the number of squares possible on device screen*/
 -(NSInteger)numberOfSquares {
     
     CGFloat width = self.view.bounds.size.width;
