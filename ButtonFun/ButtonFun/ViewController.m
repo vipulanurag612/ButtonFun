@@ -56,9 +56,9 @@ NSString *kCellID = @"cellID";          //UICollectionViewCell storyBoard id
 /*Returns the number of squares possible on device screen*/
 -(NSInteger)numberOfSquares {
     
-    CGFloat width = self.view.bounds.size.width;
+    CGFloat width = self.view.bounds.size.width + kCellHieghtWidth; //adding extra kCellHieghtWidth to fill the last half filled row spaces
     NSInteger columns = width / kCellHieghtWidth;
-    CGFloat height = self.view.bounds.size.height;
+    CGFloat height = self.view.bounds.size.height + kCellHieghtWidth;
     NSInteger rows = height / kCellHieghtWidth;
     
     return columns * rows;

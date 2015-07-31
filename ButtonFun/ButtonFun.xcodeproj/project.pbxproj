@@ -88,12 +88,12 @@
 				13E712501B6B1EB900C5B5EA /* AppDelegate.m */,
 				13E712521B6B1EB900C5B5EA /* ViewController.h */,
 				13E712531B6B1EB900C5B5EA /* ViewController.m */,
+				13E712711B6B1F8F00C5B5EA /* UIColor+RandomColor.h */,
+				13E712721B6B1F8F00C5B5EA /* UIColor+RandomColor.m */,
 				13E712551B6B1EB900C5B5EA /* Main.storyboard */,
 				13E712581B6B1EB900C5B5EA /* Images.xcassets */,
 				13E7125A1B6B1EB900C5B5EA /* LaunchScreen.xib */,
 				13E7124B1B6B1EB900C5B5EA /* Supporting Files */,
-				13E712711B6B1F8F00C5B5EA /* UIColor+RandomColor.h */,
-				13E712721B6B1F8F00C5B5EA /* UIColor+RandomColor.m */,
 			);
 			path = ButtonFun;
 			sourceTree = "<group>";
@@ -420,6 +420,7 @@
 				13E7126D1B6B1EBA00C5B5EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		13E7126E1B6B1EBA00C5B5EA /* Build configuration list for PBXNativeTarget "ButtonFunTests" */ = {
 			isa = XCConfigurationList;
@@ -428,6 +429,7 @@
 				13E712701B6B1EBA00C5B5EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
