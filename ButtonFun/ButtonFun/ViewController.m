@@ -43,6 +43,13 @@ NSString *kCellID = @"cellID";          //UICollectionViewCell storyBoard id
     cell.backgroundColor = [UIColor RandomColor];
 }
 
+-(void)willRotateToInterfaceOrientation:(UIInterfaceOrientation)toInterfaceOrientation duration: (NSTimeInterval)duration {
+    
+    [super willRotateToInterfaceOrientation:toInterfaceOrientation duration:duration];
+    [self.collectionView.collectionViewLayout invalidateLayout];
+    
+}
+
 #pragma mark Private Methods
 
 -(NSInteger)numberOfSquares {
